@@ -2,7 +2,6 @@
 .mbed
 BUILD/*
 *~
-mbed_settings.py
 *.pyc
 
 # Prerequisites
@@ -31,7 +30,7 @@ mbed_settings.py
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
