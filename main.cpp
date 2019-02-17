@@ -73,10 +73,11 @@ int main(void){
 
 
 
-/**
-   @brief GPD212 sensor calibration
+/**@brief GPD212 sensor calibration
+   
    calibration() takes a GPD212 measurement and corrects for the nonlinearity,
    returning the height in inches.
+   
    @param y the raw AnalogIn measurement, a float from 0.0-1.0
    @return float the height in inches. 
  */
@@ -87,9 +88,10 @@ float calibration(float y){
 
 
 
-/**
-   @brief logic control
+/**@brief logic control
+   
    logic_control() implements a simple dead band bang bang logic controller
+   
    @param error is the error signal, reference-measurement, as a float
    @return float the motor duty cycle, a float from 0.0-1.0
 */
