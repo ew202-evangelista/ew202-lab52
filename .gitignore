@@ -1,3 +1,10 @@
+#mbed
+.mbed
+BUILD/*
+*~
+mbed_settings.py
+*.pyc
+
 # Prerequisites
 *.d
 
